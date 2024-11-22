@@ -1,0 +1,168 @@
+:root{
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80%;  
+  max-width: 1200px;  
+}
+
+#title_page h1{
+  font-size: 36px;
+  color: #1B1B1B;
+  margin-bottom: 40px;
+}
+#title_page .headline{
+  margin-top: 48px;
+  font-size: 16px;
+  color: #E1624F;
+  margin-bottom: 8px;
+}
+
+#description img{
+  width: 1120px;
+  height: 729px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 24px;
+}
+#description p{
+  text-align: center;
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 64px;
+}
+hr {
+  border: 0; 
+  border-top: 0.5px solid #ccc; 
+  margin: 10px 0; 
+}
+
+#title_list .headline{
+  margin-top: 32px;
+  font-size: 16px;
+  color: #E1624F;
+  margin-bottom: 8px;
+}
+#title_list h2{
+  font-size: 32px;
+  color: #1B1B1B;
+  margin-bottom: 24px;
+}
+#title_list p{
+  text-align: justify;
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 64px;
+}
+
+.card_travel img{
+width: 1220px;
+height: 350px;
+margin-bottom: 20px;
+}
+.card_travel h3{
+  color: #1B1B1B;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.card_travel p{
+  text-align: justify;
+  color: #333333;
+  font-size: 16px;
+}
+.card_travel strong{
+  color: black;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.card_travel ul{
+  font-size: 16px;
+  color: #0C51A7;
+  margin-bottom: 48px;
+}
+
+.card_templo img{
+  width: 1220px;
+height: 350px;
+margin-bottom: 20px;
+}
+.card_templo h3{
+  color: #1B1B1B;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.card_templo p{
+  text-align: justify;
+  color: #333333;
+  font-size: 16px;
+}
+.card_templo strong{
+  color: black;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.card_templo ul{
+  font-size: 16px;
+  color: #0C51A7;
+  margin-bottom: 48px;
+}
+
+.card_parque img{
+  width: 1220px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+.card_parque h3{
+  color: #1B1B1B;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.card_parque p{
+  text-align: justify;
+  color: #333333;
+  font-size: 16px;
+}
+.card_parque strong{
+  color: black;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.card_parque ul .casais{
+  font-size: 16px;
+  color:#591B98;
+}
+.card_parque ul .familia{
+  color: #E5245E;
+  font-size: 16px;
+}
+.card_parque ul .orcamento{
+  color: #E95E10;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.card_parque .resume{
+  text-align: justify;
+  margin-top: 40px;
+  color: #333333;
+  font-size: 16px;
+}
+
+footer{
+  margin-top: auto;
+}
+footer p{
+  color: #333333;
+  text-align: center;
+  padding-bottom:48px ;
+  margin-top: 40px;
+}
